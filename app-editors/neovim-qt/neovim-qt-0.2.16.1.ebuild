@@ -16,7 +16,7 @@ IUSE=""
 RESTRICT="network-sandbox"
 
 DEPEND="
-	dev-libs/msgpack[static-libs]
+	dev-libs/msgpack
 	dev-qt/qtcore:5
 	dev-qt/qtgui:5
 	dev-qt/qtnetwork:5
@@ -24,3 +24,12 @@ DEPEND="
 	dev-qt/qtwidgets:5"
 RDEPEND="${DEPEND}
 	app-editors/neovim"
+
+src_configure() {
+	local mycmakeargs=(
+		-DUSE_SYSTEM_MSGPACK=ON
+		-DENABLE_TESTS=OFF
+	)
+
+	cmake-utils_src_configure
+}
