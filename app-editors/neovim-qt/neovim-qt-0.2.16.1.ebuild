@@ -12,10 +12,11 @@ SRC_URI="https://github.com/equalsraf/neovim-qt/archive/v${PV}.tar.gz -> ${P}.ta
 LICENSE="ISC"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="gcov +msgpack"
+IUSE=""
+RESTRICT="network-sandbox"
 
 DEPEND="
-	msgpack? ( dev-libs/msgpack )
+	dev-libs/msgpack[static-libs]
 	dev-qt/qtcore:5
 	dev-qt/qtgui:5
 	dev-qt/qtnetwork:5
@@ -23,12 +24,3 @@ DEPEND="
 	dev-qt/qtwidgets:5"
 RDEPEND="${DEPEND}
 	app-editors/neovim"
-
-src_configure() {
-	local mycmakeargs=(
-		-DUSE_GCOV=$(usex gcov ON OFF)
-		-DUSE_SYSTEM_MSGPACK=$(usex msgpack ON OFF)
-	)
-
-	cmake-utils_src_configure
-}
