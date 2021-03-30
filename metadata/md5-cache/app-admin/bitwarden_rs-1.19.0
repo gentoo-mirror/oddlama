@@ -4,6 +4,7 @@ DEPEND=>=app-admin/bitwarden_rs-web-vault-2.14.0 acct-group/bitwarden_rs acct-us
 DESCRIPTION=Unofficial Bitwarden compatible server written in Rust
 EAPI=7
 HOMEPAGE=https://github.com/dani-garcia/bitwarden_rs
+INHERIT=git-r3 cargo systemd
 IUSE=mysql postgres sqlite debug
 KEYWORDS=~amd64
 LICENSE=GPL-3
@@ -11,5 +12,5 @@ PROPERTIES=live
 RDEPEND=>=app-admin/bitwarden_rs-web-vault-2.14.0 acct-group/bitwarden_rs acct-user/bitwarden_rs dev-lang/rust[nightly] dev-libs/openssl:0=
 REQUIRED_USE=|| ( mysql postgres sqlite )
 SLOT=0
-_eclasses_=cargo	ee3fdb62142c867f137d4fab6f1ad34d	git-r3	3e7ec3d6619213460c85e2aa48398441	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	systemd	74b223e42834adf09a2d21fe5fe13741	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	cargo	ee3fdb62142c867f137d4fab6f1ad34d	systemd	fdf0d765c3f11f91fe54f8def9a8c0e6
 _md5_=377156cecad01039e7b093b0c94dfc5d
