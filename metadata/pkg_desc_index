@@ -4,3 +4,4 @@ app-admin/bitwarden_rs 1.19.0: Unofficial Bitwarden compatible server written in
 app-admin/bitwarden_rs-web-vault 2.18.1d: Unofficial patched bitwarden web-vault builds for bitwarden_rs
 app-editors/neovide 9999: No Nonsense Neovim Client in Rust
 app-editors/neovim-qt 0.2.16.1 9999: Neovim client library and GUI, in Qt5
+dev-vcs/git-fuzzy 9999: interactive git with the help of fzf
