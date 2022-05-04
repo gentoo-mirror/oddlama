@@ -1,7 +1,7 @@
-acct-group/bitwarden_rs 0: System group: bitwarden_rs
-acct-user/bitwarden_rs 0: System user: bitwarden_rs
-app-admin/bitwarden_rs 1.19.0: Unofficial Bitwarden compatible server written in Rust
-app-admin/bitwarden_rs-web-vault 2.18.1d: Unofficial patched bitwarden web-vault builds for bitwarden_rs
+acct-group/vaultwarden 0: User for vaultwarden
+acct-user/vaultwarden 0: User for vaultwarden
+app-admin/vaultwarden 1.24.0: Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs
+app-admin/vaultwarden-web-vault 2.28.0: Web vault builds for vaultwarden
 app-editors/neovide 9999: No Nonsense Neovim Client in Rust
 app-editors/neovim-qt 0.2.16.1 9999: Neovim client library and GUI, in Qt5
 dev-vcs/git-fuzzy 9999: interactive git with the help of fzf

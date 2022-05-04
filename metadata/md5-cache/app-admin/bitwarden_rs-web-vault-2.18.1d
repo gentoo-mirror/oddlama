@@ -1,9 +1,0 @@
-DEFINED_PHASES=install unpack
-DESCRIPTION=Unofficial patched bitwarden web-vault builds for bitwarden_rs
-EAPI=7
-HOMEPAGE=https://github.com/dani-garcia/bw_web_builds
-KEYWORDS=~amd64
-LICENSE=GPL-3
-SLOT=0
-SRC_URI=https://github.com/dani-garcia/bw_web_builds/releases/download/v2.18.1d/bw_web_v2.18.1d.tar.gz -> bitwarden_rs-web-vault-2.18.1d.tar.gz
-_md5_=602a6271ca11ef491b2f1855aaf6df29
