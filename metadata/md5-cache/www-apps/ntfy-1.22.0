@@ -1,0 +1,16 @@
+BDEPEND=web? ( net-libs/nodejs ) >=dev-lang/go-1.18 >=dev-lang/go-1.16 app-arch/unzip virtual/pkgconfig
+DEFINED_PHASES=compile install unpack
+DEPEND=acct-group/ntfy acct-user/ntfy dev-db/sqlite
+DESCRIPTION=Send push notifications to your phone or desktop using PUT/POST
+EAPI=8
+HOMEPAGE=https://github.com/binwiederhier/ntfy
+INHERIT=go-module systemd
+IUSE=+web
+KEYWORDS=~amd64 ~arm64
+LICENSE=Apache-2.0
+RDEPEND=acct-group/ntfy acct-user/ntfy dev-db/sqlite
+RESTRICT=network-sandbox strip
+SLOT=0
+SRC_URI=https://github.com/binwiederhier/ntfy/archive/v1.22.0.tar.gz -> ntfy-1.22.0.tar.gz
+_eclasses_=go-module	a13d34fe4e2996720e1ca6c53b9ea95a	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	systemd	2736b403a83f194b59b767f3b344c2c1
+_md5_=2b61ca648c92ea668edefd3e009993f7
