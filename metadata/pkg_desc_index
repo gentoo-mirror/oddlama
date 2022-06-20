@@ -6,5 +6,6 @@ app-admin/vaultwarden 1.24.0 1.25.0: Vaultwarden - Unofficial Bitwarden compatib
 app-admin/vaultwarden-web-vault 2.28.0 2.28.1: Web vault builds for vaultwarden
 app-editors/neovide 9999: No Nonsense Neovim Client in Rust
 app-editors/neovim-qt 0.2.16.1 9999: Neovim client library and GUI, in Qt5
+app-misc/zellij 0.30.0: A terminal workspace with batteries included
 dev-vcs/git-fuzzy 9999: interactive git with the help of fzf
 www-apps/ntfy 1.22.0: Send push notifications to your phone or desktop using PUT/POST
