@@ -6,3 +6,4 @@ app-editors/neovide 9999: No Nonsense Neovim Client in Rust
 app-editors/neovim-qt 0.2.16.1 9999: Neovim client library and GUI, in Qt5
 app-misc/zellij 0.30.0: A terminal workspace with batteries included
 dev-vcs/git-fuzzy 9999: interactive git with the help of fzf
+sys-fs/sanoid 2.1.0: Policy-driven snapshot management and replication tools.
