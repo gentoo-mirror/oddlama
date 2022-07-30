@@ -12,4 +12,4 @@ RDEPEND=acct-group/paperless acct-user/paperless www-servers/gunicorn app-crypt/
 SLOT=0
 SRC_URI=https://github.com/paperless-ngx/paperless-ngx/releases/download/v1.8.0/paperless-ngx-v1.8.0.tar.xz
 _eclasses_=toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	2736b403a83f194b59b767f3b344c2c1
-_md5_=d3ddec01cdedf465ede69e56b5db2042
+_md5_=99993f66ef4f592cca2fa9af03d52509
