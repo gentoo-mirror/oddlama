@@ -12,4 +12,4 @@ app-text/OCRmyPDF 13.6.2: OCRmyPDF adds an OCR text layer to scanned PDF files
 dev-vcs/git-fuzzy 9999: interactive git with the help of fzf
 mail-filter/pypolicyd-spf 2.0.2: A python based postfix policy engine for Sender Policy Framework (SPF) checking
 sys-fs/zfs_autobackup 9999: Easy and reliable ZFS autobackup tool for snapshotting, thinning and remote replication
-www-apps/paperless-ngx 1.8.0: A community-supported supercharged version of paperless: scan, index and archive all your physical documents
+www-apps/paperless-ngx 1.8.0 1.9.2: A community-supported supercharged version of paperless: scan, index and archive all your physical documents
