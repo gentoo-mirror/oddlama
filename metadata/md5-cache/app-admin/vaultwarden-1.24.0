@@ -12,5 +12,5 @@ PROPERTIES=live
 RDEPEND=acct-group/vaultwarden acct-user/vaultwarden >=app-admin/vaultwarden-web-vault-2.28.0 >=dev-lang/rust-1.60[nightly] sqlite? ( dev-db/sqlite ) dev-libs/openssl:0=
 REQUIRED_USE=|| ( mysql postgres sqlite )
 SLOT=0
-_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	9a610728b9bcca1919234cceb35a1027	multilib	5ca4e49abed8e3a2f7b56920eadee157	cargo	cf36a86462551b403389835d930587fc	systemd	5f4bb0758df2e483babf68cd517078ca
+_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	9a610728b9bcca1919234cceb35a1027	multilib	5ca4e49abed8e3a2f7b56920eadee157	cargo	f33b27c18d901601f773ae0d0f245c7d	systemd	5f4bb0758df2e483babf68cd517078ca
 _md5_=5c9bca0154927b0cb652f03452b602ca
