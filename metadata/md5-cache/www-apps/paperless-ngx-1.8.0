@@ -11,5 +11,5 @@ LICENSE=GPL-3
 RDEPEND=acct-group/paperless acct-user/paperless www-servers/gunicorn app-crypt/gnupg media-gfx/imagemagick media-gfx/optipng app-text/poppler[utils] media-libs/jbig2enc ocr? ( app-text/OCRmyPDF )
 SLOT=0
 SRC_URI=https://github.com/paperless-ngx/paperless-ngx/releases/download/v1.8.0/paperless-ngx-v1.8.0.tar.xz
-_eclasses_=toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	104e1332efb829e2f7cbf89307a474f1	systemd	5f4bb0758df2e483babf68cd517078ca
+_eclasses_=toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	systemd	5f4bb0758df2e483babf68cd517078ca
 _md5_=f69ffab6170f1226e8c93fcd17d98b16
