@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=>=app-shells/fzf-0.20.0 sys-devel/bc
 RESTRICT=mirror
 SLOT=0
-_eclasses_=git-r3	5133e393e8717a3a093660f990801dc1
+_eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
 _md5_=fa1b701c99ae8c4a749783f2bf4f4705
